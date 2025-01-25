@@ -11,7 +11,7 @@ b.Parent = a
 b.TextSize = 30
 b.Text = "启动通用 (停更)"
 b.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/nonono-/refs/heads/main/Protected_4836001864217254.txt"))("RNG")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGNONONO/refs/heads/main/Protected_9881611090671349.txt"))()
 a:Destroy()
 end)
 
