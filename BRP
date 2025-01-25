@@ -1,0 +1,30 @@
+local a = Instance.new("ScreenGui")
+local b = Instance.new("TextButton")
+local d = Instance.new("TextButton")
+a.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+b.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+b.Size = UDim2.new(0.3, 0, 0.3, 0)
+b.Position = UDim2.new(0.35, 0, 0.45, 0)
+b.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+b.BorderSizePixel = 2
+b.Parent = a
+b.TextSize = 30
+b.Text = "启动通用 (停更)"
+b.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/nonono-/refs/heads/main/Protected_4836001864217254.txt"))("RNG")
+a:Destroy()
+end)
+
+d.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+d.Size = UDim2.new(0.3, 0, 0.3, 0)
+d.Position = UDim2.new(0.35, 0, 0.15, 0)
+d.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
+d.BorderSizePixel = 2
+d.Parent = a
+d.TextSize = 30
+d.Text = "启动游戏脚本"
+d.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGONON/refs/heads/main/Protected_6267892828527290.txt"))("RNG")
+a:Destroy()
+end)
+--
