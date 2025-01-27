@@ -24,7 +24,7 @@ d.Parent = a
 d.TextSize = 30
 d.Text = "启动游戏脚本"
 d.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGONON/refs/heads/main/Protected_6267892828527290.txt"))("RNG")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/jfjfjfjvg/RNGONON/refs/heads/main/Protected_3602520639320877.txt"))("RNG")
 a:Destroy()
 end)
 --
